@@ -1,8 +1,24 @@
-# Getting Started with Create React App
+# Film festival survey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demo project and playground. Nothing to be taken seriously.
 
-## Available Scripts
+---
+
+## Technologies
+
+- Node 16, NPM 8
+- React 17, Webpack 4, TypeScript 4 (bootstraped with Create React App)
+- styled-components for styling
+- Jest for testing
+- Storybook for UI development
+
+## Getting started
+
+1. `npm install` (or `npm ci` if you want to install dependencies from `package-lock.json`)
+2. `npm prepare`
+3. `npm start`
+
+## Available scripts
 
 In the project directory, you can run:
 
@@ -39,8 +55,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### `npm run storybook`
+
+Launches Storybook for UI development.
+
+### `npm run build-storybook`
+
+Builds Storybook documention for developed UI.
+
+### `npm run lint`
+
+Lints code for style errors.
+
+### `npm run prepare`
+
+Installs and sets up [Husky](https://github.com/typicode/husky).
+
+The project currently uses a pre-commit hook to lint staged changes and throw an error if it's not up to configured standards.
