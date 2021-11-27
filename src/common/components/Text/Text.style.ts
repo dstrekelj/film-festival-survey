@@ -50,6 +50,6 @@ const fontStyles = (p: ThemedStyledProps<Props, DefaultTheme>) => {
   `;
 };
 
-export const StyledText = styled.div<Props>`
+export const StyledText = styled.span<Props>`
   ${fontStyles}
 `;
