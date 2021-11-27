@@ -15,26 +15,26 @@ const fontStyles = (p: ThemedStyledProps<Props, DefaultTheme>) => {
     case "caption":
       fontSize = px(12);
       lineHeight = px(18);
-      letterSpacing = px(4);
+      letterSpacing = px(0.04 * 12);
       fontWeight = 400;
       textTransform = "uppercase";
       break;
     case "eyebrow":
       fontSize = px(18);
       lineHeight = px(28);
-      letterSpacing = pct(2);
+      letterSpacing = px(0.02 * 18);
       fontWeight = 300;
       break;
     case "heading":
       fontSize = px(24);
       lineHeight = px(36);
-      letterSpacing = pct(2);
+      letterSpacing = px(0.02 * 24);
       fontWeight = 900;
       break;
     case "paragraph":
       fontSize = px(16);
       lineHeight = px(24);
-      letterSpacing = pct(2);
+      letterSpacing = px(0.02 * 16);
       fontWeight = 400;
       break;
     default:

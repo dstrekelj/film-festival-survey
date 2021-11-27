@@ -11,5 +11,5 @@ const Template: Story<Props> = (args) => <Text {...args} />;
 export const Default = Template.bind({});
 
 Default.args = {
-  children: "Lorem ipsum dolor sit amet",
+  children: "The quick brown fox jumps over the lazy dog",
 };
