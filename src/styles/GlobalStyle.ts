@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: "Roboto", serif;
+    font-family: Roboto, sans-serif;
+    color: ${(props) => props.theme.palette.common.black};
   }
 `;

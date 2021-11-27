@@ -51,8 +51,5 @@ const fontStyles = (p: ThemedStyledProps<Props, DefaultTheme>) => {
 };
 
 export const StyledText = styled.div<Props>`
-  font-family: Roboto, sans-serif;
-  color: ${(props) => props.theme.palette.common.black};
-
   ${fontStyles}
 `;
