@@ -8,7 +8,7 @@ export const Text = (props: React.PropsWithChildren<Types.Props>) => (
   <StyledText {...props} />
 );
 
-StyledText.propTypes = {
+Text.propTypes = {
   children: PropTypes.node,
   variant: PropTypes.oneOf([
     "caption",
@@ -18,7 +18,7 @@ StyledText.propTypes = {
   ] as const).isRequired,
 };
 
-StyledText.defaultProps = {
+Text.defaultProps = {
   as: "div",
   variant: "paragraph",
 };
